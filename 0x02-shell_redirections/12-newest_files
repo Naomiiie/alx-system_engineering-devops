@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt  --time=atime --format =long grep -v 'total' head -n 10
+ls -t1 | head -n 10
